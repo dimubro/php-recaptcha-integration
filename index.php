@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+
+
 <form action="re_check.php" method="post" id="myForm">
   <!-- Your form fields -->
   <input type="text" name="name" required>
@@ -7,7 +17,8 @@
   <input type="text" id="recaptcha_token" name="recaptcha_response" value="">
   <button id="submitBtn" disabled type="submit">Submit</button>
 </form>
-
+</body>
+</html>
 <!-- Load reCAPTCHA API -->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
